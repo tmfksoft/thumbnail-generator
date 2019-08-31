@@ -1,33 +1,33 @@
 {
-    "compilerOptions": {
-      "module": "commonjs",
-      "target": "es6",
-      "sourceMap": true,
-      "inlineSources": true,
-      "sourceRoot": "/",
-      "lib": [
-        "es5",
-        "es2015",
-        "es2016",
-        "es2017"
-      ],
-  
-  
-      "types": [
-        "node",
-      ],
-      "experimentalDecorators": true,
-      "allowJs": false,
-      "esModuleInterop": true,
-      "skipLibCheck": true,
-      "typeRoots": [
-        "node_modules/@types"
-      ],
-      "outDir": "dist"
-    },
-    "exclude": [
-      "node_modules",
-      "dist",
-      "build"
-    ]
-  }
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "sourceMap": true,
+    "inlineSources": true,
+    "declaration": true,
+    "declarationDir": "dist",
+    "outDir": "dist",
+    "lib": [
+      "es5",
+      "es2015",
+      "es2016",
+      "es2017"
+    ],
+    "types": [
+      "node",
+    ],
+    "experimentalDecorators": true,
+    "allowJs": false,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "build",
+    "example"
+  ]
+}
