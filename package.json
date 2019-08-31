@@ -1,6 +1,6 @@
 {
   "name": "thumbnail-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A quick and dirty library to generate sprite sheets of thumbnails from a video file",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -14,10 +14,12 @@
     "webp-converter": "^2.2.3"
   },
   "devDependencies": {
+    "ts-node": "^8.3.0",
     "typescript": "^3.6.2"
   },
   "scripts": {
     "prepublish": "tsc",
+    "demo": "ts-node example/sample.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Thomas Edwards <tmfksoft@gmail.com>",
