@@ -1,5 +1,5 @@
 import { createCanvas, loadImage } from 'canvas';
-import * as ffmpeg from 'ffmpeg';
+import ffmpeg from 'ffmpeg';
 import * as webp from 'webp-converter';
 import uuid from 'uuidv4';
 
