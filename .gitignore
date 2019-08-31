@@ -6,3 +6,6 @@ output
 
 # My Modules!
 node_modules
+
+# Typescriot output
+dist/

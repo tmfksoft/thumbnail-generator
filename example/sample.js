@@ -1,4 +1,4 @@
-const { generateSprites } = require('../index');
+const { generateSprites } = require('../src');
 const fs = require('fs');
 
 console.log(generateSprites);
