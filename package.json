@@ -1,0 +1,21 @@
+{
+  "name": "thumbnail-generator",
+  "version": "1.0.0",
+  "description": "A quick and dirty library to generate sprite sheets of thumbnails from a video file",
+  "main": "index.js",
+  "dependencies": {
+    "@types/node": "^12.7.3",
+    "canvas": "^2.6.0",
+    "ffmpeg": "0.0.4",
+    "mkdirp": "^0.5.1",
+    "rimraf": "^3.0.0",
+    "uuidv4": "^5.0.0",
+    "webp-converter": "^2.2.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thomas Edwards <tmfksoft@gmail.com>",
+  "license": "ISC"
+}
